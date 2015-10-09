@@ -5,8 +5,8 @@ app.get('/', function(request, response){
     response.send('Hello MGT-656!');
 });
 
-app.get('/netid', function(request, response) {
-    response.send('yk363');
+app.get('/nickname', function(request, response) {
+    response.send('yawning-yam');
 });
 
 app.listen(process.env.PORT || 4000,
